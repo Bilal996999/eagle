@@ -1,0 +1,37 @@
+.card_container{
+    transition: all 0.3s;
+    /* cursor: pointer; */
+}
+.card_container:hover{
+        box-shadow: 0px 0px 6px -1px rgba(0,0,0,0.75);
+}
+.card_container h5{
+        color: grey;
+}
+.card_container span{
+    color: rgb(167, 167, 167);
+    font-size: 14px;
+}
+.card_container input{
+    background-color: #F9FAFB;
+    color: #707280;
+    text-align: center;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 4px;
+    font-size: 14px;
+    outline: auto;
+    outline-color: #dddddd;
+}
+.btn{
+    border: 1px solid var(--color-blue);
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    color: var(--color-blue);
+    transition: all 0.3s;
+}
+.btn:hover{
+    background-color: var(--color-blue);
+    color: white;
+    border: 1px solid white;
+}

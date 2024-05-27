@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+:root{
+  --color-blue: #0C264B;
+  --color-red: #DF1F26;
+  --color-grey: #EDEFF4;
+  --color-grey-primary: #ECF0F4;
+  --color-grey-dark: #D0D7DE;
+  --font-primary: "Lexend", sans-serif;
+}
+body{
+  font-family: var(--font-primary);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--color-blue);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--color-red);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: red;
+}
+.anchor{
+  color: white;
+  text-decoration: none;
+}
+
+
+.bi-importantNote {
+  position: absolute;
+  bottom: 40px;
+}
+.bi-importantNote p {
+  color: red;
+  font-size: 12px;
+  font-weight: 400;
+  padding: 2px 5px;
+  text-transform: lowercase;
+  margin-bottom: 0;
+}
+
+/* .navbar-toggler{
+
+}
+.navbar-toggler-icon{
+  font-size: 16px;
+} */
+
+@media (max-width: 1199.98px) { 
+  .navbar-toggler{
+    margin-right: 20px;
+  }
+  .navbar-toggler-icon{
+    font-size: 16px;
+    /* margin-top: -10px; */
+  }
+  
+}
+
+@media (max-width: 991.98px) { 
+  .navbar-toggler{
+    margin-right: 5px;
+    border: none;
+    margin-top: 10px !important;
+
+  }
+  .navbar-toggler-icon{
+    font-size: 16px;
+    /* margin-top: -10px; */
+  }
+ }
+
+@media (max-width: 767.98px) {
+  .navbar-toggler{
+    margin-right: 0px;
+    margin-top: 1px !important;
+
+  }
+  .navbar-toggler-icon{
+    font-size: 16px;
+    /* margin-top: -10px; */
+  }
+ }
+
+@media (max-width: 575.98px) { }

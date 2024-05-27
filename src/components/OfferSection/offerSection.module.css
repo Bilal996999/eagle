@@ -1,0 +1,21 @@
+.container{
+    min-height: 90vh;
+}
+.main_heading{
+    font-size: 58px;
+    font-weight: 600;
+    color: var(--color-blue);
+    width: 60%;
+    margin: auto;
+}
+@media (max-width: 991.98px) { 
+    .main_heading{
+        font-size: 40px;
+    }
+ }
+
+@media (max-width: 767.98px) { 
+    .main_heading{
+        font-size: 34px;
+    }
+}

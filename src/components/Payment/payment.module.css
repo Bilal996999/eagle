@@ -1,0 +1,73 @@
+.container{
+    min-height: 80vh;
+    width: 540px !important;
+    margin: auto;
+}
+.container h4{
+    font-weight: bold;
+    color: grey;
+}
+.span_container{
+    font-size: 14px;
+    color: grey;
+}
+.form_container input[type="text"]{ 
+    width: 320px;
+    padding: 5px;
+}
+.card_sec{
+    border: 1px solid grey;
+    width: 320px;
+    margin: auto;
+    padding: 10px 10px;
+}
+.img_container{
+    width: 300px;
+}
+.btn{
+    background-color: var(--color-blue);
+    color: white;
+    padding: 5px 10px;
+}
+.form_container label{
+    font-size: 20px;
+    display: block;
+    margin-top: 10px;
+}
+.field_container{
+    /* border: 1px solid red; */
+}
+.field_container input, .field_container select{
+    width: 100% !important;
+    display: block;
+}
+.field_container select{
+    padding: 8px 0px;
+}
+.field_container span{
+    display: block;
+    font-size: 12px;
+}
+.btn_container button{
+    width: 100%;
+    background-color: var(--color-blue);
+    color: white;
+    padding: 8px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 767.98px) { }
+
+@media (max-width: 575.98px) {
+    .container{
+        min-height: 80vh;
+        width: 320px !important;
+        margin: auto;
+    }
+    .form_container input[type="email"]{ 
+        width: 320px;
+        padding: 5px;
+    }
+}

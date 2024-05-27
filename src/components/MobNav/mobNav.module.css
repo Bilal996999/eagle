@@ -1,0 +1,51 @@
+.container{
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+}
+.cancel_container{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.cancel_icon{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cancel_icon:hover{
+    color: red;
+    font-size: 42px;
+    font-weight: bold;
+}
+.container ul{
+    list-style-type: none;
+}
+.container li{
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;   
+}
+.container li a{
+    color: white;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;  
+    text-decoration: none; 
+}
+.container li:hover{
+    color: red;
+}
+.container ul li img{
+    width: 20px;
+    margin-right: 20px;
+}

@@ -1,0 +1,52 @@
+.timer_border_box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* border: 1px solid #000; */
+    background-color: var(--color-blue);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+
+}
+.time_border_image{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.timer_heading{
+    /* border: 1px solid #000; */
+    color: var(--color-grey);
+    text-align: center;
+}
+.timer_heading h1{
+    font-family: var(--font-primary);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1em;
+    margin: 0px;
+    /* border: 1px solid red; */
+}
+.centerCount {
+    /* Add styles for center count */
+    text-align: center;
+    /* Add any additional styles as needed */
+}
+
+.timer_heading p{
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.timer_heading span{
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}

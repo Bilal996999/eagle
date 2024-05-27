@@ -1,0 +1,83 @@
+.call_fluid{
+    background-color: var(--color-blue);
+    padding: 80px 15px 80px 15px;
+    background-image: url('../../assets//workBg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid var(--color-grey);
+
+}
+.call_container{
+    /* border: 1px solid #000; */
+    padding: 10px 0px;
+}
+.call_section_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.call_content_sec{
+    width: 50%;
+    color: var(--color-grey);
+    font-family: var(--font-primary);
+
+}
+.call_content_sec h3{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+
+}
+.call_content_sec h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2em;
+
+}
+.call_content_sec p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.8em;
+    width: 80%;
+    padding: 10px 0px 0px 0px;
+
+}
+.call_btn{
+    padding: 10px 30px ;
+
+}
+.io_call{
+    color: var(--color-grey);
+    margin: 0px 5px;
+}
+.call_btn button{
+    border: none;
+    background-color: var(--color-red);
+    color: var(--color-grey);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-primary);
+    padding: 20px 40px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in;
+}
+.call_btn button a{
+    text-decoration: none;
+    color: var(--color-grey);
+}
+.call_btn button:hover{
+    background-color: var(--color-blue);
+}
+@media (max-width: 991.98px) { 
+    .call_section_main{
+     flex-direction: column;
+    }
+    .call_content_sec{
+        width: auto;
+        text-align: center;
+    }
+    .call_content_sec p{
+        width: auto;
+    }
+ }

@@ -1,0 +1,25 @@
+.main_fluid{
+    padding: 0px 0px !important;
+    background-image: linear-gradient(rgba(13, 38, 75, 0.8), rgba(13, 38, 75, 0.8)), url('../../assets/carBannerImg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.services_section{
+    padding: 145px 15px 139px 15px;
+    /* border: 1px solid #000; */
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    
+}
+.location_heading h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2em;
+    font-family: var(--font-primary);
+    text-transform: uppercase;
+}

@@ -1,0 +1,31 @@
+.container{
+    min-height: 80vh;
+    
+}
+.container h4{
+    font-weight: bold;
+    color: grey;
+}
+.form_container input[type="text"]{ 
+    width: 430px;
+    padding: 5px;
+}
+.form_container span{
+ color: grey !important;
+}
+.btn{
+    background-color: var(--color-blue);
+    color: white;
+    padding: 5px 10px;
+}
+
+@media (max-width: 991.98px) {  }
+
+@media (max-width: 767.98px) { }
+
+@media (max-width: 575.98px) {
+    .form_container input[type="text"]{ 
+        width: 320px;
+        padding: 5px;
+    }
+ }

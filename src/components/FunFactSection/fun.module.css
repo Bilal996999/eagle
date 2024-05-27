@@ -1,0 +1,49 @@
+.fact_fluid{
+    padding: 0px !important;
+    background-image: url('../../assets/lux3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .fact_container{
+    border: 1px solid #b97f00;
+} */
+.fact_con_one{
+    padding: 200px 0px 100px 0px;
+    display: flex;
+    align-items: center;
+}
+/* .fact_content_section{
+    border: 1px solid #f30707;
+} */
+.fact_content_section h1{
+    color: var(--color-grey);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-family: var(--font-primary);
+}
+.fact_content_section p{
+    font-family: var(--font-primary);
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: var(--color-grey);
+
+}
+
+.fact_timer_section{
+    /* border: 1px solid #f30707; */
+    padding: 20px 0px;
+    display: flex;
+}
+@media (max-width: 991.98px) { 
+    .fact_con_one{
+        flex-direction: column;  
+        text-align: center;
+    }
+    .fact_timer_section{
+        flex-direction: column;
+    }
+ }
+

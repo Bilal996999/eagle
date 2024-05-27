@@ -1,0 +1,117 @@
+/* .rent_main_fluid{
+    border: 1px solid #000;
+
+} */
+.rent_container{
+    /* border: 1px solid #000; */
+    padding: 50px 0px;
+}
+/* .rent_row{
+
+} */
+/* .rent_col_one{
+    border: 1px solid #000;
+} */
+.rent_section_one{
+    /* height: 80vh; */
+    /* border: 1px solid #e61a1a; */
+    padding: 10px 0px;
+}
+.rent_image_section{
+    /* width: 800px; */
+    /* border: 1px solid #000; */
+    position: relative;
+}
+/* .rent_image{
+    border: 1px solid #000;
+} */
+.rent_image img{
+    width: 100%;
+}
+.rent_image_car{
+    /* border: 1px solid #000; */
+    position: absolute;
+    /* top: 0; */
+    right: 0;
+    bottom: -10px;
+}
+
+/* col 2 */
+
+/* .rent_col_two{
+    border: 1px solid #000;
+} */
+.rent_section_two{
+    /* border: 1px solid #e61a1a; */
+    padding: 20px 40px;
+
+}
+/* .rent_contentsection{
+    border: 1px solid #000;
+} */
+.beni_heading_sec h4{
+    color: var(--color-red);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-primar);
+}
+.beni_heading_sec h1{
+    color: var(--color-blue);
+    font-family: var(--font-primar);
+    font-size: 49px;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+}
+.beni_heading_sec p{
+    color: var(--color-red);
+    padding: 0px 0px 0px 0px;
+    font-family: var(--font-primar);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px;
+}
+/* .many_locaton_section{
+    border: 1px solid #000;
+} */
+.many_section{
+    display: flex;
+    /* border: 1px solid #22bb03; */
+    padding: 10px 0px 20px 0px;
+}
+.many_pick_heading{
+    /* border: 1px solid #e61a1a; */
+    margin: 0px 10px 0px 0px;
+    width: 100%;
+}
+.many_pick_heading h1{
+    color: var(--color-blue);
+    font-family: var(--font-primar);
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1.5em;
+    border-bottom: 1px solid #d0d7de;
+}
+.many_pick_heading p{
+    color: #707278;
+    font-size: 16px;
+    font-weight: 400;
+}
+.discover_btn{
+    /* border: 1px solid #000; */
+    padding: 20px 0px;
+}
+.discover_btn button{
+    background-color: var(--color-red);
+    border: none;
+    color: var(--color-grey);
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+}
+.discover_btn button:hover{
+    background-color: var(--color-blue);
+}

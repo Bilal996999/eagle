@@ -1,0 +1,131 @@
+.work_fluid {
+    background-color: var(--color-blue);
+    background-image: url('../../assets/workBg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 15px 80px 15px;
+}
+.work_image {
+    text-align: center;
+}
+
+.work_image h1 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.work_card_section {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+.work_card_box {
+    width: 350px;
+    height: 255px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 20px 20px;
+}
+.work_card_box2 {
+    width: 350px;
+    border-radius: 10px;
+    background-color: #DF1F26;
+    margin: 20px 20px;
+    position: relative;
+}
+.icon_work_fingure{
+    position: absolute;
+    right: 0;
+}
+
+.wrok_card_haeding {
+    padding: 32px 32px 45px 50px;
+}
+.wrok_card_haeding h1 {
+    color: var(--color-blue);
+    font-family: var(--font-primar);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+.wrok_card_haeding p {
+    font-size: 16px;
+    font-family: var(--font-primar);
+    color: #807d7d;
+    font-weight: 300;
+    line-height: 1.7em;
+}
+.work_mini_box {
+    background-color: #ecf0f4;
+    padding: 35px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+.work_mini_box2 {
+    background-color: #0707071c;
+    padding: 35px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+}
+.circle_border_img {
+    border: 10px solid #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 45px;
+}
+
+.circle_carImage img {
+    width: 100%;
+    border: 2px solid var(--color-blue);
+    border-radius: 50%;
+}
+.circle_carImage2 img {
+    width: 100%;
+    /* border: 2px solid var(--color-blue); */
+    border-radius: 50%;
+}
+
+.work_icon_section {
+    position: absolute;
+    top: 15px;
+    right: 40px;
+    cursor: pointer;
+}
+.view_more_section h1 {
+    font-size: 14px;
+    color: #807d7d;
+    font-family: var(--font-primar);
+    font-weight: 400;
+    line-height: 1.2em;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.work_card_box2 .wrok_card_haeding h1 {
+    color: #fff; /* Set heading color to white */
+}
+.work_card_box2 .view_more_section h1{
+    color: #fff;
+}
+.work_card_box2 .wrok_card_haeding p{
+    color: #fff;
+}
+
+.work_card_box2 .angles_style_work {
+    color: #fff; /* Set arrow color to white */
+}
+.work_angles {
+    text-align: center;
+    line-height: 1em;
+}
+.angles_style_work {
+    color: #75777C;
+}

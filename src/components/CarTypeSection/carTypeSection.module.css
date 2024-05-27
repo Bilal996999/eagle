@@ -1,0 +1,27 @@
+.main_heading{
+    color: var(--color-blue);
+    font-size: 48px;
+    width: 80%;
+    margin: auto;
+    font-weight: 700;
+}
+.container p{
+    color: grey;
+    line-height: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+@media (max-width: 991.98px) { 
+    .main_heading{
+        font-size: 40px;
+    }
+ }
+
+@media (max-width: 767.98px) { 
+    .main_heading{
+        font-size: 34px;
+    }
+}
+
+@media (max-width: 575.98px) { }

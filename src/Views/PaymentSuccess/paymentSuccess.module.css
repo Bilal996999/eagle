@@ -1,0 +1,17 @@
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.success_container{
+    width: 320px;
+    min-height: 120px;
+}
+.success_container button{
+    background-color: var(--color-blue);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+}

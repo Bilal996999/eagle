@@ -1,0 +1,25 @@
+.container{
+    width: 520px !important;
+}
+
+.container h5{
+    font-weight: bold;
+}
+.license_container{
+ width: 360px;   
+ margin: auto;
+ padding: 40px 30px;
+ box-shadow: -1px 1px 10px -4px rgba(0,0,0,0.75);
+}
+.icon{
+    font-size: 48px;
+    color: rgb(168, 168, 168);
+}
+.para{
+    font-size: 14px;
+    color: grey;
+}
+.para span{
+    color: var(--color-blue);
+    cursor: pointer;
+}

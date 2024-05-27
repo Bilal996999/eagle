@@ -1,0 +1,38 @@
+.container{
+    background-image: url('../../assets/bg-26.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    min-height: 90vh;
+}
+.call_img{
+    border: 8px solid var(--color-grey-dark);
+    border-radius: 8px;
+}
+.sec_heading{
+    font-size: 58px;
+    font-weight: 600;
+    color: var(--color-blue);
+}
+.para{
+    color: rgb(163, 163, 163);
+}
+.ul li{
+    color: var(--color-blue);
+    line-height: 30px;
+    font-weight: 600;
+}
+
+@media (max-width: 991.98px) { 
+    .sec_heading{
+        font-size: 40px;
+    }
+ }
+
+@media (max-width: 767.98px) { 
+    .sec_heading{
+        font-size: 34px;
+    }
+}

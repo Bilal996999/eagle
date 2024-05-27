@@ -1,0 +1,77 @@
+.questionsSection{
+    background-color: var(--color-grey-primary);
+}
+.question_para{
+    font-size: 24px;
+}
+.questionsSection span{
+    color: grey;
+}
+.number{
+    font-size: 20px;
+}
+
+.field_section{
+    padding-top: 30px;
+    width: 100%;
+}
+.input_container{
+    width: 100%;
+}
+.field_section2{
+    padding-top: 30px;
+}
+.form_container input{
+    width: 100%;
+    background-color: var(--color-grey-primary);
+    border: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.input_container select{
+    width: 100%;
+    background-color: var(--color-grey-primary);
+    border: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.field_section2 select{
+    width: 100%;
+    background-color: var(--color-grey-primary);
+    border: none;
+    padding: 20px 20px;
+    border-radius: 10px;
+}
+.field_section2 option{
+    padding-top: 20px !important;
+}
+.btn_container input[type="submit"]{
+    background-color: var(--color-red);
+    color: white;
+    transition: all 0.3s;
+}
+.btn_container input[type="submit"]:hover{
+    background-color: var(--color-blue);
+    color: white;
+}
+.btn_spin{
+    width: 100%;
+    margin-top: 15px;
+    background-color: var(--color-red);
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+.btn_spin:hover{
+    background-color: var(--color-blue);
+}
+
+.validdation_error{
+    color: var(--color-red);
+    font-size: 14px;
+    padding: 0px 10px;
+}

@@ -1,0 +1,132 @@
+.luxery_fluid{
+    /* border: 1px solid #000; */
+}
+.luxery_container{
+    /* border: 1px solid #000; */
+    /* height: 80vh; */
+    padding: 20px 0px 0px;
+    margin-bottom: -150px;
+    position: relative; 
+}
+.luxery_row{
+
+}
+
+/* col-1 */
+
+.luxery_col_one{
+    padding: 0px !important;
+
+}
+.luxery_section_one{
+    /* border: 1px solid #d80e0e; */
+    /* padding: 10px  0px; */
+    position: relative;
+}
+.luxery_images{
+
+}
+.luxery_images img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    min-height: 500px;
+}
+
+.luxery_heading {
+    /* border: 1px solid #d80e0e; */
+    position: absolute;
+    bottom: 50px;
+    color: var(--color-grey);
+    width: 100%;
+    text-align: center;
+}
+.luxery_heading p{
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.875em;
+    margin: 0px;
+}
+.luxery_heading h1{
+    font-family: var(--font-primary);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1em;
+
+}
+
+/* col-2 */
+.luxery_col_two{
+    padding: 0px !important;
+    background-color: #ECF0F4;
+    display: flex;
+    align-items: center;
+}
+.luxery_section_two{
+    /* border: 1px solid #d80e0e; */
+    padding: 10px  0px;
+}
+.luxery_section_content{
+    /* border: 1px solid #000; */
+    padding: 0px 70px;
+}
+.looking_heading{
+    /* border: 1px solid #25ff08; */
+    padding: 10px 0px 30px 0px;
+}
+.looking_heading h1{
+    color: var(--color-blue);
+    font-family: var(--font-primary);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2em;
+}
+/* .starting_heading{
+    border: 1px solid #25ff08;
+} */
+.starting_heading h3{
+    font-family: var(--font-primary);
+    color: #77797e;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+.starting_heading h3 span{
+    color: var(--color-red);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1em;
+    letter-spacing: 0em;
+}
+.starting_heading p{
+    color: #77797e;
+    font-size: 16px;
+    font-family: 400;
+}
+.discover_luxBtn{
+    /* border: 1px solid #25ff08; */
+    padding-top: 50px;
+}
+.discover_luxBtn button{
+    background-color: var(--color-red);
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold; 
+    transition: all 0.3s ease-in;
+}
+.discover_luxBtn button:hover{
+    background-color: var(--color-blue);
+}
+
+@media (max-width: 991.98px) { 
+    .luxery_container{
+        margin-bottom: 0px;
+    }
+    .luxery_section_one{
+        margin: 10px 0px;
+    }
+ }
+

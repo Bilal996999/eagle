@@ -1,0 +1,89 @@
+.card_container{
+    width: 420px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 20px -4px rgba(0,0,0,0.75);
+}
+/*  */
+.data_time p{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+.data_time p span{
+    color: grey;
+}
+/*  */
+.return_location p{
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.return_location span{
+    display: block;
+    font-size: 14px;
+    color: grey;
+}
+/*  */
+.coverage p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.coverage span{
+    color: grey;
+    font-size: 14px;
+}
+/*  */
+.Additional_details p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+/*  */
+.travel_car p{
+    font-size: 14px;
+}
+.car_detail{
+    display: inline-block;
+    font-size: 10px !important;
+    line-height: 12px !important;
+}
+.img_container{
+    width: 200px;
+    height: 80px;
+    
+}
+.img_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/*  */
+.price ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.price ul li{
+    display: flex;
+    justify-content: space-between;
+}
+.btn_container button{
+    background-color: var(--color-blue);
+    color: white;
+    width: 100%;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+/*  */
+.review_container span{
+    font-size: 12px;
+    color: var(--color-blue);
+}
+.review_container h2{
+    font-weight: bold;
+}
+.review_container p{
+    color: grey;
+    width: 70%;
+    margin: auto;
+}

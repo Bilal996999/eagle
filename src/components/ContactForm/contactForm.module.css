@@ -1,0 +1,74 @@
+.contact_container{box-shadow: -1px 3px 58px -19px rgba(0,0,0,0.61);}
+.heading{
+    font-weight: bold;
+    color: var(--color-blue);
+}
+.field_container{
+    margin-top: 20px;
+}
+.field_container input, .field_container textarea{
+    width: 100%;
+    padding: 20px 16px;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
+.btn_container input{
+ width: 100%;
+ margin-top: 15px;
+ background-color: var(--color-red);
+ color: white;
+ padding: 20px 20px;
+ border: none;
+ border-radius: 10px;
+ font-weight: bold;
+ transition: all 0.3s ease-in;
+}
+.btn_container input:hover{
+ background-color: var(--color-blue);
+ color: white;
+
+}
+.btn_spin{
+    width: 100%;
+    margin-top: 15px;
+    background-color: var(--color-red);
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+.btn_spin:hover{
+    background-color: var(--color-blue);
+}
+
+
+.title{
+    color: grey;
+}
+.socialIcon{
+    border-radius: 50%;
+    border: 1px solid var(--color-grey);
+    background-color: var(--color-grey);
+    font-size: 12px;
+    width: 40px;
+    padding: 10px;
+    height: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.socialIcon:hover{
+    
+    border: 1px solid var(--color-red);
+    background-color: var(--color-red);
+    color: white;
+}
+.validdation_error{
+    color: var(--color-red);
+    font-size: 14px;
+    padding: 0px 10px;
+}

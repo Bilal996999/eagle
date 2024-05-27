@@ -1,0 +1,125 @@
+.car_main_fluid{
+    /* border: 1px solid #000; */
+    padding: 0px !important;
+}
+.car_container{
+    /* border: 1px solid #000; */
+    /* height: 50vh; */
+    padding: 0px !important;
+}
+.car_heading_section{
+    /* border: 1px solid #000; */
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+
+}
+.beni_heading_sec h4{
+    color: var(--color-red);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--font-primar);
+}
+.beni_heading_sec h1{
+    color: var(--color-blue);
+    font-family: var(--font-primar);
+    font-size: 49px;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px;
+}
+.beni_heading_sec p{
+    color: #807d7d;
+    padding: 0px 0px 0px 0px;
+    font-family: var(--font-primar);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0px;
+}
+
+/* 2 */
+.services_images_section{
+    /* border: 1px solid #dd0f0f; */
+    padding: 80px 0px 80px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.service_img_boxes{
+    border: 1px solid #D0D7DE;
+    width: 350px;
+    min-height: 560px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden !important;
+
+}
+.service_img_boxes:hover{
+    border: 1px solid var(--color-red);
+}
+/* .serC2_imges img{
+    width: 100%;
+    background-color: #fff;
+} */
+.serC2_imges img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* cursor: pointer; */
+    height: 525px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.serC2_imges::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 35px;
+    background: linear-gradient(rgba(11, 20, 31, 0.829), rgba(17, 31, 49, 0.829)); 
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.ser_heading{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    /* background: rgba(0, 0, 0, 0.7); */
+    /* transition: background 0.3s ease-in-out;
+    color: white; */
+    cursor: pointer;
+}
+.ser_heading h1{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: var(--font-primar);
+    -webkit-text-stroke-width: 1px;
+    stroke-width: 1px;
+    -webkit-text-stroke-color: #DF1F26;
+    stroke: #DF1F26;
+    color: #fff;
+    text-transform: uppercase;
+}
+ .ser_heading h1:hover{
+    color: #DF1F26;
+}
+
+.service_img_boxes:hover .ser_heading  {
+    /* background: rgba(0, 0, 0, 0.3);  */
+    
+    background: rgba(0, 0, 0, 0.3);
+    color: white; /* Change text color to white on hover */
+  }
+  
+  .service_img_boxes:hover .serC2_imges img {
+    transform: scale(1.1); /* Zoom in the image on hover */
+  }
