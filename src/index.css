@@ -49,6 +49,10 @@ body{
   text-transform: lowercase;
   margin-bottom: 0;
 }
+.car-model{
+  font-size: 12px;
+  font-weight: 500;
+}
 
 /* .navbar-toggler{
 

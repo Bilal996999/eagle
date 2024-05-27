@@ -20,7 +20,7 @@ export const CarPkgCard = ({data,method}) => {
                 </div>
 
                 <div className={`${styles.content_container} py-2 px-4`}>
-                    <h5 className='mt-2'>{data.title}</h5>
+                    <h5 className='mt-2'>{data.title} <small class="car-model">{`(${data.model})`}</small></h5>
                     <p className='my-0'>{data.description}</p>
                     <span><b>{data.dayCharges}</b> / Day</span>
                     <br />
